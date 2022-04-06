@@ -1,0 +1,808 @@
+.firstPage {
+  height: 110vh;
+  width: 100%;
+  background-image: url('../img/greyStoneCrop3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2, h3, button {
+font-family: 'Playfair Display SC', serif;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+h4, h5, h6, p, a, label, ::-webkit-input-placeholder, ::-webkit-textarea-placeholder {
+font-family: 'Manuale', serif;
+}
+
+::-webkit-input-placeholder, textarea::placeholder {
+  font-size: 1.4vw;
+  opacity: 0.5;
+}
+
+input, textarea {
+  font-size: 1.4vw;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+nav {
+  width: 40%;
+  background-color: rgba(25, 57, 84, 1);
+}
+
+ul {
+  width: 100%;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navWrap {
+  position: fixed;
+    z-index: 10;
+}
+
+.navbarContainer {
+  height: 2.5vw;
+  position: fixed;
+  width: 100%;
+}
+
+.navbarContainer a {
+  position: relative;
+  font-size: 1.2vw;
+  font-weight: 300;
+  color: rgba(255, 255, 255,0.9) !important;
+  text-decoration: none;
+}
+
+.navbarContainer a:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255,1);
+}
+
+.nav-float {
+    position: fixed;
+    background: #fff;
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+
+.underlineBar {
+  position: absolute;
+  display: block;
+  float: left;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: all .3s ease-in-out;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.clicked {
+  width: 100%;
+}
+
+.titleContainer {
+  width: 100%;
+  height: 90vh;
+}
+
+.titleSubContainer {
+  width: 100%;
+  height: 50%;
+}
+
+.profileLeftSide {
+  width: 30%;
+}
+
+.bottomLeftProfile {
+  width: 100%;
+}
+
+.imageContainer {
+  border: 0.5vw solid rgba(25, 57, 84, 1);
+  height: 18vw;
+  width: 60%;
+}
+
+.profileRightSide {
+  width: 50%;
+}
+
+.profileLeftSide h5 {
+  font-size: 2vw;
+  color: white;
+  margin-right: 5vw;
+  font-weight: 500;
+}
+
+.profileRightSide h1 {
+  font-size: 7vw;
+  color: white;
+}
+
+.profileLeftSubContainer {
+  width: 95%;
+}
+
+.bottomLeftProfile {
+  margin-bottom: 4vh;
+}
+
+
+.secondPage {
+  height: 110vh;
+  width: 100%;
+  background-image: url('../img/whiteNeutral.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secondPageContainer {
+  height: 80%;
+  width: 80%;
+}
+
+ h2 {
+  height: 11vh;
+}
+
+.secondPageTopContainer {
+  width: 100%;
+  height: 60%;
+}
+
+.secondPageTopLeftSide {
+  height: 100%;
+}
+
+#secondPagetopLeftWrapper {
+    width: 30%;
+}
+
+.secondPage p {
+  font-size: 1.3vw;
+  background: linear-gradient(to right, #3b3b3b 100%, #1c1c1c  10%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.secondPageTopRightSide {
+  position: relative;
+  height: 100%;
+  /*background-image: url('../');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;*/
+  bottom: 8vh;
+}
+
+#secondPagetopRightWrapper {
+    width: 70%;
+}
+
+.secondPageTopRightSide img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.secondPageBottomContainer {
+  width: 100%;
+  height: 40%;
+}
+
+
+.secondPageBottomContainer ul {
+  width: 100%;
+  padding: 0;
+}
+
+.secondPageBottomContainer li {
+  list-style-type: none;
+  width: 30%;
+}
+
+.secondPageBottomContainer h3 {
+  height: 5vh;
+  font-size: 1.8vw;
+}
+
+.thirdPage {
+  height: 110vh;
+  width: 100%;
+  border: 1px solid black;
+  background-image: url('../img/blackBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thirdPageContainer {
+  height: 80%;
+  width: 80%;
+}
+
+.thirdPageTop {
+  width: 100%;
+}
+
+.thirdPageTop h2 {
+  color: white;
+  font-size: 2vw;
+}
+
+.thirdPage h3 {
+  color: white;
+  font-size: 1.8vw;
+}
+
+.thirdPage h4 {
+  color: white;
+  font-size: 1.5vw;
+  background: linear-gradient(to right, #c9c9c9 0%, #f0f0f0  100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.thirdPage p {
+  font-size: 1.2vw;
+  background: linear-gradient(to right,#ababab 0%, #cfcfcf  100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.thirdPageBottom {
+  height: 70%;
+  width: 100%;
+}
+
+.leftProjects {
+  width: 100%;
+  height: 100%;
+}
+
+.rightProjects {
+  width: 100%;
+  height: 100%;
+}
+
+.projectContainer {
+  width: 100%;
+  height: 35%;
+}
+
+.imgBox  {
+  width: 27%;
+  padding-bottom: 22%;
+  /*border: 1px solid rgba(191, 191, 191,1);*/
+}
+
+.imgBox:hover {
+  cursor: pointer;
+}
+
+.angular {
+  background-image: url('../img/angular13Logo.png');
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+}
+
+.angularjs {
+  background-image: url('../img/angularJSLogo.png');
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+}
+
+.wordpress {
+  background-image: url('../img/wordpressLogoCrop.png');
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+}
+
+.php {
+  background-image: url('../img/phpLogoCrop.png');
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+}
+
+.textBox h3, .textBox h4, .textBox p {
+  padding-left: 1vw;
+  color: white;
+}
+
+.fourthPage {
+  height: 110vh;
+  width: 100%;
+  border: 1px solid black;
+  background-image: url('../img/lightGrey.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourthPageContainer {
+  height: 80%;
+  width: 80%;
+}
+
+.fourthPage h4 {
+  font-size: 1.8vw;
+}
+
+.fourthPageBottom h4 {
+  height: 8vh;
+}
+
+.fourthPageTop {
+  height: 100%;
+  width: 100%;
+}
+
+.fourthPageBottom {
+  height: 100%;
+  width: 100%;
+  margin-top: 4vh;
+}
+
+.upworkSection {
+  height: 50%;
+  width: 100%;
+}
+.upworkButtonContainer {
+  height: 100%;
+}
+.upworkSection .upworkButton {
+  width: 13vw;
+  height: 3vw;
+  border: 1px solid rgba(191, 191, 191,1);
+  border-radius: 1.5vw;
+  background-color: rgba(255, 255, 255,0.3);
+
+}
+
+.upworkSection .upworkButton:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255,0.6);
+}
+
+.upworkButton img {
+  height: 60%;
+  width: 50%;
+}
+
+.formTop {
+  width: 70%;
+  height: 30%;
+}
+
+label {
+  font-size: 1.5vw;
+}
+
+.formBox {
+  width: 48%;
+}
+
+input {
+  margin-right: 2vw;
+  width: 100%;
+  height: 5vh;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 0.2vw solid rgba(25, 57, 84, 0.5);
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+input:focus{
+    border-bottom: 0.2vw solid rgba(25, 57, 84, 1);
+}
+
+textarea {
+  width: 70%;
+  height: 15vh;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 0.2vw solid rgba(25, 57, 84, 0.5);
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+textarea:focus{
+    border-bottom: 0.2vw solid rgba(25, 57, 84, 1);
+}
+
+.formBottom label {
+  margin-top: 2vh;
+  height: 5vh;
+}
+
+.formButton {
+  width: 70%;
+  margin-top: 4vh;
+}
+
+button {
+  background: transparent;
+  border: 0.2vw solid rgba(25, 57, 84, 1);
+  padding: 0.2vh 2vw;
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+button:hover {
+  background-color: rgba(25, 57, 84, 0.4);
+  color: white;
+}
+
+.fourthPageTop h2 {
+  height: 10vh;
+}
+
+#imageProfileWraper {
+  width: 100%;
+  height: 100%;
+}
+
+#imageProfileWraper img {
+  width: 100%;
+  height: 100%;
+}
+
+#secondPagetopLeftWrapper, #secondPagetopRightWrapper, #secondPageBottomWrapper {
+  position: relative;
+}
+
+
+/*Big Screens*/
+
+@media (min-width: 1900px) {
+
+  .secondPageBottomContainer {
+    margin-top: 5vh;
+  }
+
+  h2 {
+    font-size: 1.8vw !important;
+  }
+
+  h3 {
+    font-size: 1.5vw !important;
+  }
+
+  h4 {
+    font-size: 1.4vw !important;
+  }
+
+}
+
+
+
+/*Tablet*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  nav {
+    height: 4vh;
+    width: 60%;
+  }
+
+   a, p {
+    font-size: 1.5vh !important;
+  }
+
+  h3 {
+    font-size: 1.8vh !important;
+  }
+
+  h4 {
+    font-size: 1.6vh !important;
+  }
+
+  h5 {
+    font-size: 2vh !important;
+  }
+
+  h2 {
+    font-size: 2vh !important;
+  }
+
+  .imgBox {
+    width: 80%;
+  }
+
+  .secondPageTopRightSide img {
+    position: relative;
+    left: 5vh;
+    bottom: 10vh;
+  }
+
+  .fourthPage h4 {
+    font-size: 1.8vh !important;
+  }
+
+  label{
+    font-size: 1.5vh !important;
+  }
+
+  ::-webkit-input-placeholder, textarea::placeholder, input, textarea {
+    font-size: 1.4vh;
+  }
+
+  button {
+    padding: 0.5vh 3vw;
+    font-size: 1.5vh;
+  }
+
+  .upworkSection .upworkButton {
+    width: 13vh;
+    height: 3vh;
+    border: 1px solid rgba(191, 191, 191,1);
+    border-radius: 1.5vh;
+    background-color: rgba(255, 255, 255,0.3);
+
+  }
+
+}
+
+
+/*mobile*/
+
+.mobileNavBurger {
+  width: 100%;
+  padding: 1vh 1vh;
+  background-color: rgba(240,240,240,1);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 5;
+}
+
+.burgerWrapper {
+  border: 1px solid rgba(210,210,210,0.9);
+  padding-left: 1vh;
+  padding-right: 1vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  border-radius: 5px;
+  background-color: rgba(250,250,250,1);
+}
+
+.mobileNavBurger img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 428px) {
+
+  .navbar {
+    width: 100%;
+    height: 20vh;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .navbar ul {
+    padding: 0 0;
+  }
+
+  .navbar ul li {
+      border-bottom: 1px solid white;
+      padding: 1vh 1vh;
+      background-color: rgba(25, 57, 84, 1);
+  }
+
+  .navbar ul li:active {
+    background-color: rgba(25, 57, 84, 0.7);
+  }
+
+  .navbar a {
+    font-size: 3vh !important;
+  }
+
+  .navbar ul li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .thirdPageTopWrapper {
+    height: 10%;
+  }
+
+  .thirdPageTop {
+    margin: 10vh 0vh;
+  }
+
+  .titleSubContainer {
+    width: 50%;
+  }
+
+  .profileLeftSide {
+    width: 100%;
+  }
+
+  a, p {
+   font-size: 2.5vh !important;
+ }
+
+ h1 {
+   font-size: 5vh !important
+ }
+
+ h2 {
+   font-size: 3vh !important;
+ }
+
+ h5 {
+   font-size: 3vh !important;
+ }
+
+ .secondPageTopLeftSide h2 {
+   margin-bottom: 5vh;
+ }
+
+ .secondPage h3 {
+   font-size: 2.5vh !important;
+   height: 5vh;
+ }
+
+  .thirdPage h3 {
+    font-size: 2.8vh !important;
+  }
+
+  .thirdPage h4 {
+   font-size: 2.7vh !important;
+ }
+
+ .fourthPage h4 {
+   font-size: 2.8vh !important;
+ }
+
+ .fourthPage h4 {
+   font-size: 2.8vh;
+ }
+
+ label{
+   font-size: 2.3vh !important;
+ }
+
+ ::-webkit-input-placeholder, textarea::placeholder, input, textarea {
+   font-size: 2vh;
+ }
+
+ .formButton {
+   width: 100%;
+ }
+
+ button {
+   padding: 0.2vh 2vh;
+   font-size: 2vh;
+ }
+
+ .profileRightSide {
+   width: 100%;
+ }
+
+ .secondPage {
+   height: 240vh;
+ }
+
+ .secondPageContainer {
+   height: 90%;
+ }
+
+ .secondPageTopContainer {
+   height: 50%;
+ }
+
+ #secondPagetopLeftWrapper {
+   width: 100%;
+ }
+
+ #secondPagetopRightWrapper {
+   width: 120%;
+ }
+
+ .secondPageTopRightSide {
+   bottom: 0;
+   margin-top: 5vh;
+ }
+
+ .secondPageTopRightSide img {
+    max-width: 120%;
+ }
+
+ .secondPageBottomContainer {
+      margin-top: 5vh;
+  }
+
+ .secondPageBottomContainer li {
+   list-style-type: none;
+   width: 100%;
+   margin-top: 5vh;
+ }
+
+ .thirdPage {
+   height: 250vh;
+ }
+
+ .thirdPageContainer {
+   height: 100%;
+ }
+
+ .thirdPageTop {
+   margin: 10vh 0vh;
+ }
+
+ #thirdPageTopWrapper {
+   height: 10% !important;
+ }
+
+ #leftProjectsWrapper, #rightProjectsWrapper {
+   height: 100% !important;
+   width: 100% !important;
+   margin-bottom: 0vh !important;
+ }
+
+ .projectContainer {
+   margin: 5vh 0vh !important;
+ }
+
+ .angular, .angularjs, .wordpress, .php {
+   background-size: 80%;
+ }
+
+ .imgBox {
+   width: auto;
+   position: relative;
+   padding-bottom: 25%;
+   bottom: 5vh;
+   height: 20vh;
+ }
+
+ .upworkSection .upworkButton {
+   width: 13vh;
+   height: 3vh;
+   border-radius: 1.5vh;
+ }
+
+ .formTop {
+   width: 100%;
+ }
+
+ textarea {
+   width: 100%;
+ }
+
+ .leftProjects {
+   height: 115%;
+ }
+
+}
